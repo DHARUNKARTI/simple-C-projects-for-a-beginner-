@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    // 1/1! + 2/2!+3/3!+...+n/n!
+    float sum=0,i,n,x;
+    printf("Enter the exponent: ");
+    scanf("%f",&x);
+    for (i=0;i<=100;i++)
+    {
+        sum=sum+(pow(x,i)/(tgamma(i+1)));
+       // printf("value: %f\n",sum);
+    }
+    printf("Value of e^x is: %f",sum);
+
+
+    return 0;
+}
