@@ -13,6 +13,8 @@ This repository contains simple C programs that are good for beginners to practi
 - `prime_checker.c` → Check if a number is prime
 - `primes_(1 to 1000).c` → Generate all prime numbers from 1 to 1000
 - `reverse_of_num.c` → Reverse a given number
+- `rec.c` → Factorial with help of function recursion
+  
 
 ## 🚀 How to Run
 1. Clone the repository  
